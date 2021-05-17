@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size units</title>
+    <style>
+        html {
+            font-size: 20px;
+        }
+        
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .container {
+            border: 2px solid red;
+            text-align: center;
+            font-size: 20px;
+            height: 100vh;
+            width: 100vw;
+        }
+        
+        #heading1 {
+            /* em = parent's font size * child's font size */
+            /* font-size: 2em; */
+            /* rem = HTML's font size * child's font size */
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2 id="heading1">This is Heading</h2>
+        <h2 id="heading2">This is Heading</h2>
+        <h2 id="heading3">This is Heading</h2>
+        <h2 id="heading4">This is Heading</h2>
+    </div>
+</body>
+
+</html>
